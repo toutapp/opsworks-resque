@@ -3,10 +3,8 @@ description "Resque workers"
 
 pre-start script
 
-bash << "EOF"
   mkdir -p /var/log/resque
   chown -R deploy /var/log/resque
-EOF
 
 end script
 
